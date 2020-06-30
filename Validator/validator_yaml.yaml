@@ -1,0 +1,31 @@
+# INSERT DIRECTORY AS SHOWN BELOW
+
+# PROJECT NAME:
+#   INPUT_DIR:  C:\Users\Data
+#   LOG_DIR:  C:\Users\Log
+#   BACKUP_DIR: C:\Users\Backup
+
+IFRS:
+  HEADER_CHECK: TRUE
+  INPUT_DIR:  C:\Users\rache\Desktop\Validator\Data
+  LOG_DIR:  C:\Users\rache\Desktop\Validator\Log
+  BACKUP_DIR: C:\Users\rache\Desktop\Validator\Landing
+  DELIMITER: ","
+  DEL_CHECK: TRUE
+  
+
+IFRS1:
+  HEADER_CHECK: TRUE
+  INPUT_DIR:  C:\Users\rache\Desktop\Validator\Data1
+  LOG_DIR:  C:\Users\rache\Desktop\Validator\Log1
+  BACKUP_DIR: C:\Users\rache\Desktop\Validator\Backup1
+  DELIMITER: ","
+  DEL_CHECK: FALSE
+
+IFRS2:
+  HEADER_CHECK: TRUE
+  INPUT_DIR:  C:\Users\rache\Desktop\Validator\Data2
+  LOG_DIR:  C:\Users\rache\Desktop\Validator\Log2
+  BACKUP_DIR: C:\Users\rache\Desktop\Validator\Backup2
+  DELIMITER: ","
+  DEL_CHECK: TRUE
